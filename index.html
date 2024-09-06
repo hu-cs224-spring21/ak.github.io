@@ -1,5 +1,89 @@
 ---
 layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+<!-- title: My website -->
+<!-- cover-img: /assets/img/404-southpark.jpg -->
+<!-- share-img: /assets/img/path.jpg -->
+<!-- subtitle: This is where I will tell my friends way too much about me -->
 ---
+
+<div class="personal-image">
+  <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Personal photo" />
+  <div class="figure-text">
+    <h2>Ke Fan</h2>
+    <p>
+    	<b>P.h.D candidate, Computer Science</b> <br>
+    	<b>University of Illinois Chicago</b> <br>
+    </p>
+    <h3>About me</h3>
+    <p>	As a Ph.D. candidate in Computer Science at the University of Illinois Chicago, I am conducting research under my advisor, Sidharth Kumar. My research lies in high-performance computing (HPC), emphasizing three key areas: optimizing the performance of MPI collectives, enhancing the performance of irregular parallel I/O operations, and improving the scalability of performance introspection frameworks. Throughout my Ph.D. journey, I have made significant contributions to the field of high-performance computing, as evidenced by my publications in top-tier HPC conferences such as HPDC, HiPC, and ISC. My poster presentation at SC 2023 was recognized as the best poster finalist. My diverse research experiences have allowed me to develop strong expertise in parallel computing. Besides, I am also exploring new research areas, including GPU-aware collectives, auto performance tuning for collectives using ML, and ensemble performance visualization tools.
+    </p>	
+  </div>
+</div>
+
+<hr class="custom-hr">
+
+<div class="publication-box">
+	<h2>Selected Publications</h2>
+
+	<div class="publication">
+	  <img src="{{ '/assets/img/ISC-1-cover.png' | relative_url }}" alt="Paper 1" class="publication-image">
+	  <div class="publication-details">
+	    <h3>Configurable Algorithms for All-to-all Collectives</h3>
+	    <p> <b>Ke Fan</b>, Steve Petruzza, Thomas Gilray, Sidharth Kumar <br>
+	       The International Supercomputing Conference (ISC 2024) <br>
+	       Acceptance rate: 29% (24/83) <br>
+	       <p>Visit the <a href="/assets/papers/ISC24_alltoall.pdf">paper</a> for more information.</p>
+		</p>
+	  </div>
+	</div>
+
+	<div class="publication">
+	  <img src="{{ '/assets/img/ISC-2-cover.png' | relative_url }}" alt="Paper 1" class="publication-image">
+	  <div class="publication-details">
+	    <h3>TinyProf: Towards Continuous Performance Introspection through Scalable Parallel I/O.</h3>
+	    <p> <b>Ke Fan</b>, Suraj Kesavan, Steve Petruzza, Sidharth Kumar <br>
+	       The International Supercomputing Conference (ISC 2024) <br>
+	       Acceptance rate: 29% (24/83) <br>
+	       <p>Visit the <a href="/assets/papers/vis_paper.pdf">paper</a> for more information.</p>
+		</p>
+	  </div>
+	</div>
+
+	<div class="publication">
+	  <img src="{{ '/assets/img/HPDC-cover.png' | relative_url }}" alt="Paper 1" class="publication-image">
+	  <div class="publication-details">
+	    <h3>Optimizing the Bruck Algorithm for Non-uniform All-to-all Communication.</h3>
+	    <p><b>Ke Fan</b>, Thomas Gilray, Valerio Pascucci, Xuan Huang, Kristopher Micinski, Sidharth Kumar <br>
+	       International Symposium on High-Performance Parallel and Distributed Computing (HPDC 2022) <br>
+	       Acceptance rate: 19% <br>
+	       <p>Visit the <a href="/assets/papers/hpdc2022.pdf">paper</a> for more information.</p>
+		</p>
+	  </div>
+	</div>
+
+	<div class="publication">
+	  <img src="{{ '/assets/img/HIPC-cover.png' | relative_url }}" alt="Paper 1" class="publication-image">
+	  <div class="publication-details">
+	    <h3>Load-balancing Parallel I/O of Compressed Hierarchical Layouts.</h3>
+	    <p><b>Ke Fan</b>, Duong Hoang, Steve Petruzza, Thomas Gilray, Valerio Pascucci, Sidharth Kumar. <br>
+	       IEEE Conference On High Performance Computing, Data, and Analytics (HiPC 2021) <br>
+	       Acceptance rate: 23% <br>
+	       <p>Visit the <a href="/assets/papers/hipc21.pdf">paper</a> for more information.</p>
+		</p>
+	  </div>
+	</div>
+
+	<div class="publication">
+	  <img src="{{ '/assets/img/IPDPSW-cover.png' | relative_url }}" alt="Paper 1" class="publication-image">
+	  <div class="publication-details">
+	    <h3>Exploring MPI Collective I/O and File-per-process I/O for Checkpointing a Logical Inference task.</h3>
+	    <p><b>Ke Fan</b>, Kristopher Micinski, Thomas Gilray, Sidharth Kumar. <br>
+	       IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW 2021)<br>
+	       <p>Visit the <a href="/assets/papers/ws_hps103s1.pdf">paper</a> for more information.</p>
+		</p>
+	  </div>
+	</div>
+
+</div>
+
+
