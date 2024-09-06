@@ -21,9 +21,9 @@ author: Ke Fan
 
 navbar-links:
   Home: "index"
-  Publications: "publications"
-  Projects: "projects"
+  Publication: "publications"
   Experience: "aboutme"
+  Award: "award"
 
 
     # - Beautiful Jekyll: "https://beautifuljekyll.com"

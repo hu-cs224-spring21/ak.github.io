@@ -1244,6 +1244,17 @@ pre {
   padding: 5px; /* Optional: space between the border and the image */
 }
 
+.award-box {
+  margin: 0; /* Space between publications */
+  width: 100%; /* Limit the width of the text block */
+}
+
+.award-box li {
+  margin: 10px; /* Space between publications */
+  width: 100%; /* Limit the width of the text block */
+}
+
+
 
 
 
