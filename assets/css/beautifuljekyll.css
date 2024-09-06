@@ -1214,5 +1214,37 @@ pre {
   padding: 5px 30px 5px 30px; /* Optional: space between the border and the image */
 }
 
+.experience {
+  display: flex;
+  align-items: flex-start; /* Align items to the top */
+  margin: 0 0 40px 0; /* Space between publications */
+}
+
+.experience-box {
+  margin: 0; /* Space between publications */
+  width: 100%; /* Limit the width of the text block */
+}
+
+.experience-box p{
+  margin: 0; /* Space between publications */
+}
+
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Limit the width of the text block */
+}
+
+.experience-image {
+  width: 90px; /* Set the width of the image */
+  height: 90px; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between the image and the text */
+  border: 3px solid #EAEAEA; /* Border thickness and color */
+  border-radius: 5px; /* Optional: rounded corners */
+  padding: 5px; /* Optional: space between the border and the image */
+}
+
+
+
 
 

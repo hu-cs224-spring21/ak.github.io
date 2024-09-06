@@ -23,7 +23,7 @@ navbar-links:
   Home: "index"
   Publications: "publications"
   Projects: "projects"
-  About me: "aboutme"
+  Experience: "aboutme"
 
 
     # - Beautiful Jekyll: "https://beautifuljekyll.com"
