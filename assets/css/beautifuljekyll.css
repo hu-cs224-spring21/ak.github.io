@@ -1161,6 +1161,11 @@ pre {
   margin: 0; /* Adjusts the space for the paragraph */
 }
 
+.description {
+  max-width: 100%; /* Limits the width of the text area */
+  font-size: 16px;
+}
+
 .custom-hr {
   border: solid #EAEAEA; /* Remove the default border */
   height: 2px; /* Set the height of the line */
